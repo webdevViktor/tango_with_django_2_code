@@ -1,0 +1,49 @@
+{% extends 'rango/base.html' %}
+{% load static %}
+
+{% block title_block %}
+    About Rango
+{% endblock %}
+
+{% block body_block %}
+
+
+
+    <div class="jumbotron p-1">
+        <div class="container">
+            <h1>Rango says...</h1>
+            <div>
+                here is the about page. <br>
+                <strong>{{ boldmessage }}</strong> <br>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of cat">
+    </div>
+
+    <br>
+
+    <p>Visits: {{ visits }}</p>
+    <br>
+
+    <button class="btn btn-primary" onclick="alert('You clicked the button using inline JavaScript.');">
+        Click me - I run on vanilla JavaScript!
+    </button>
+
+    <button class="btn btn-primary" id="about-btn">
+        Click me - I'm using JQuery!
+    </button>
+    <br>
+
+    <p>
+        This is some text for the JQuery example.
+    </p>
+
+    <div id="msg">Hello! I'm a further example for JQuery testing.</div>
+
+{% endblock %}
+
+
+
