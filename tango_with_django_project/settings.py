@@ -33,7 +33,7 @@ SECRET_KEY = 'pv^a3trrnqlh!0h8&^!9nfjt*&dsasezxt#)psb8(ejuyc^%to'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['VikDar.pythonanywhere.com']
 
 # Application definition
 
