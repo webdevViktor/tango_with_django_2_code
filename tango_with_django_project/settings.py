@@ -31,7 +31,7 @@ MEDIA_URL = '/media/'
 SECRET_KEY = 'pv^a3trrnqlh!0h8&^!9nfjt*&dsasezxt#)psb8(ejuyc^%to'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['vikdar.pythonanywhere.com']
 
